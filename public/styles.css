@@ -24,15 +24,53 @@ footer {
     text-align: center;
 }
 
-.note-container{
-    display: flex;
-    flex-direction: row;
+.input  {
+    display: block;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px grey;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+form input {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    font-size: 24px;
+    outline: none;
+    font-family: 'Inconsolata', monospace;
+}
+
+form textarea {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Inconsolata', monospace;
+}
+
+form button {
+    float: right;
+    margin-top: 70px;
+    padding: 5px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #fffc46;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px grey;
 }
 
 .note {
+    float: left;
     width: 300px;
     height: 200px;
-    border-radius: 10%;
+    border-radius: 10px;
     box-shadow: 0px 2px 5px grey;
     padding: 20px;
     margin: 30px;
