@@ -11,4 +11,15 @@ html {
 header {
     background-color:#edea29;
     padding: 24px;
+    box-shadow: 5px 2px 10px grey;
+}
+
+footer {
+    background-color:#2e2e2e;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    padding: 12px;
+    text-align: center;
 }
