@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function InputArea() {
+function InputArea(props) {
   const [note, setNote] = useState({
     title: "",
     content: "",
@@ -11,6 +11,12 @@ function InputArea() {
     setNote((prevNote) => {
       return { ...prevNote, [name]: value };
     });
+  }
+
+  function submitNote(event) {
+    props.onAdd(note);
+    event.preventDefault();
+    setNote({ title: "", content: "" });
   }
 
   return (
@@ -28,7 +34,7 @@ function InputArea() {
           name="content"
           placeholder="Content..."
         />
-        <button>Add</button>
+        <button onClick={submitNote}>Add</button>
       </form>
     </div>
   );
