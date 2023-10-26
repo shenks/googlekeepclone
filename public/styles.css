@@ -91,4 +91,5 @@ form button {
     padding: 5px;
     border-radius: 6px;
     background-color: #fffc46;
+    cursor: pointer;
 } 
