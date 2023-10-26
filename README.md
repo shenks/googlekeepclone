@@ -39,7 +39,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Outline of Steps:
+### `Outline of Steps:`
 
 - front end and styling
 - state management for input area
@@ -49,3 +49,4 @@ Outline of Steps:
 - when we add new note in InputArea, needs to call the function from App.jsx so need props
 - need to map the array to display items
 - need to provide props to note.jsx to dynamically display array objects
+- delete functionality for note component (function in App.jsx passed into Note.jsx)

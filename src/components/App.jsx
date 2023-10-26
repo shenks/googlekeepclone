@@ -12,7 +12,14 @@ function App() {
     setNotes((prevNotes) => {
       return [...prevNotes, newNote];
     });
-    console.log(notes);
+  }
+
+  function deleteNote(id) {
+    setNotes((prevNotes) => {
+      return prevNotes.filter((note, index) => {
+        return index !== id;
+      });
+    });
   }
 
   return (
@@ -21,7 +28,13 @@ function App() {
       {/* tested, array updates */}
       <InputArea onAdd={updateNotes} />
       {notes.map((eachItem, index) => (
-        <Note key={index} title={eachItem.title} content={eachItem.content} />
+        <Note
+          key={index}
+          id={index}
+          title={eachItem.title}
+          content={eachItem.content}
+          onDelete={deleteNote}
+        />
       ))}
       ;
       <Footer />
@@ -38,4 +51,4 @@ export default App;
 // need a function in App.jsx to update state of array - done, named updateNotes
 // when we add new note in InputArea, needs to call the function from App.jsx so need props -done
 // need to map the array to display items - done
-// need to provide props to note.jsx
+// need to provide props to note.jsx - done
