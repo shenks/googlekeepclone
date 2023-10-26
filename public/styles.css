@@ -74,6 +74,7 @@ form button {
     box-shadow: 0px 2px 5px grey;
     padding: 20px;
     margin: 30px;
+    overflow: auto;
 }
 
 .note h1 {
@@ -87,7 +88,7 @@ form button {
 
 .note button {
     float: right;
-    margin-top: 80px;
+    margin-top: 70px;
     padding: 5px;
     border-radius: 6px;
     background-color: #fffc46;
