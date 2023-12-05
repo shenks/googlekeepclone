@@ -1,4 +1,4 @@
-### Check out the live demo [here](https://shenks.github.io/googlekeepclone).
+### `Check out the live demo` [here](https://shenks.github.io/googlekeepclone).
 
 ### `Outline of Steps Taken to build:`
 
