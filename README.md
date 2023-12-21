@@ -14,3 +14,11 @@
 - need to map the array to display items
 - need to provide props to note.jsx to dynamically display array objects
 - delete functionality for note component (function in App.jsx passed into Note.jsx)
+
+### Prerequisites
+- Node.js and npm (Node Package Manager)
+
+### `To Run` 🏃‍♂️
+- in terminal:
+  - $ npm i
+  - $ npm start
