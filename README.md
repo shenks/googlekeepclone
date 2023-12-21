@@ -1,6 +1,9 @@
-### `Check out the live demo` [here](https://shenks.github.io/googlekeepclone).
+### `Check out the live demo` 👉 [here](https://shenks.github.io/googlekeepclone).
 
-### `Outline of Steps Taken to build:`
+### `Preview` 👀
+![Keep Clone Preview](https://github.com/shenks/googlekeepclone/blob/main/KeepClonePreview.png)
+
+### `Outline of Steps Taken to build:`🪜
 
 - front end and styling
 - state management for input area
